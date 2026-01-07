@@ -636,42 +636,9 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
-.blog-list {
-  display: grid;
-  gap: 60px;
+.portfolio {
+  padding-bottom: 120px;   /* increase this value as needed */
 }
-
-.blog-card {
-  display: grid;
-  gap: 40px;
-}
-
-.blog-card .card-content {
-  display: flex;
-  gap: 16px;
-  padding-inline: 16px;
-}
-
-.blog-card .time { font-size: var(--fs-7); }
-
-.blog-card .time .span {
-  color: var(--white);
-  font-weight: var(--fw-700);
-  line-height: 0.9;
-}
-
-.blog-card .card-text { margin-block: 20px; }
-
-
-
 
 
 /*-----------------------------------*\
@@ -707,6 +674,16 @@ body.nav-active { overflow: hidden; }
 .social-link:is(:hover, :focus-visible) { border-color: var(--white); }
 
 
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.social-list {
+  margin-left: auto;   /* pushes icons to the right */
+  display: flex;
+  gap: 15px;
+}
 
 
 
